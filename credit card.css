@@ -1,0 +1,83 @@
+#background{
+	background-color: #0A0C1B;
+	padding: 102px;
+}
+.firstcol{
+	background-color: #1C1937;
+	color: white;
+}
+.firstcol h1{
+	font-weight:400, 700;
+}
+.column p{
+	font-size: 15px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-family: url("https://fonts.google.com/specimen/Inter;")
+}
+bdi{
+	color: hsl(277, 64%, 61%);
+}
+.values{
+	color: hsla(0, 0%, 100%, 0.6);
+	font-size: 13px;
+}
+.values b{
+	color: white;
+	font-size: 20px;
+}
+#image{
+	padding: 0px;
+	position: relative;
+}
+#image:before{
+	background: hsl(277, 64%, 61%,0.5);
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#image2{
+	padding: 0px;
+	position: relative;
+}
+#image2:before{
+	background: hsl(277, 64%, 61%,0.5);
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+ @media (max-width: 575px)
+ {
+ 	#background{
+ 		padding-right: 20px;
+ 		padding-left: 20px;
+ 		padding-top: 70px;
+ 		padding-bottom: 70px;
+ 	}
+ 	#middle{
+ 		
+ 		margin-left: 100px;
+ 	}
+ 	.header{
+ 		padding: 30px;
+ 		text-align: center;
+ 	}
+ 	#one{
+ 		margin-bottom: 5px;
+ 	}
+ 	#two{
+ 		margin-top: 9px;
+ 		margin-bottom: 5px;
+ 	}
+ 	#three{
+ 		margin-top: 9px;
+ 	}
+ 	#image{
+ 		display: none;
+ 	}
+ }
+
